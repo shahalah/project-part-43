@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+/*h1::before{
+    content:"This is ";
+}
+h1::after{
+    content: " My YouTube Channle";
+}
+h1::first-letter{
+    font-size: 200%;
+    color: #ff0000;
+}*/
+h1::first-line{
+    color: #ff00f0;
+    font-size: 50px;
+    text-decoration: underline;
+}
+::marker{
+    color: #ff00f0;
+}
+::selection{
+    color: #000000;
+    background-color: #00000052;
+}

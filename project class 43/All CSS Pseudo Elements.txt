@@ -1,0 +1,98 @@
+All CSS Pseudo Elements
+
+Selector	Example		Example description
+
+::after		p::after	Insert something after the content of each <p> element
+
+::before	p::before	Insert something before the content of each <p> element
+
+::first-letter	p::first-letter	Selects the first letter of each <p> element
+
+::first-line	p::first-line	Selects the first line of each <p> element
+
+::marker	::marker	Selects the markers of list items
+
+::selection	p::selection	Selects the portion of an element that is selected by a user
+
+
+================CSS ::after Selector=============================
+
+Definition and Usage
+The ::after selector inserts something after the content of each selected element(s).
+
+Use the content property to specify the content to insert.
+
+Use the ::before selector to insert something before the content.
+
+
+=======================CSS ::before Selector========================
+
+Definition and Usage
+The ::before selector inserts something before the content of each selected element(s).
+
+Use the content property to specify the content to insert.
+
+Use the ::after selector to insert something after the content.
+
+
+==========================CSS ::first-letter Selector=============================
+
+Definition and Usage
+The ::first-letter selector is used to add a style to the first letter of the specified selector.
+
+Note: The following properties can be used with ::first-letter: 
+
+font properties
+color properties
+background properties
+margin properties
+padding properties
+border properties
+text-decoration
+vertical-align (only if float is 'none')
+text-transform
+line-height
+float
+clear
+Note: The ::first-letter selector can only be used with block-level elements.
+
+
+=======================CSS ::first-line Selector=============================
+
+Definition and Usage
+The ::first-line selector is used to add a style to the first line of the specified selector.
+
+Note: The following properties can be used with ::first-line: 
+
+font properties
+color properties
+background properties
+word-spacing
+letter-spacing
+text-decoration
+vertical-align
+text-transform
+line-height
+clear
+Note: The ::first-line selector can only be used with block-level elements.
+
+
+==================================CSS ::marker Selector=====================================
+
+Definition and Usage
+The ::marker selector selects the marker of a list item.
+
+This selector works on any element set to display:list-item.
+
+
+CSS ::selection Selector
+
+Definition and Usage
+The ::selection selector matches the portion of an element that is selected by a user.
+
+Only a few CSS properties can be applied to the ::selection selector: color, background, cursor, and outline.
+
+Browser Support
+The numbers in the table specify the first browser version that fully supports the property.
+
+Numbers followed by -webkit- or -moz- specify the first version that worked with a prefix. 
